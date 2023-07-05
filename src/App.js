@@ -1,11 +1,13 @@
 import './App.css';
+import React from 'react'
+import Clickme from './components/Clickme';
+import Chartme from './components/Chartme';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello boo !</h1>
-    </div>
-  );
+    <>
+        <Clickme/>
+        <Chartme/>
+    </>
+  )
 }
-
-export default App;
