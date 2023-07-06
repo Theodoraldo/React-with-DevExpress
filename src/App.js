@@ -1,11 +1,17 @@
 import './App.css';
+import React from 'react'
+import Clickme from './components/Clickme';
+import Chartme from './components/Chartme';
+import AutoComplete from './components/AutoComplete';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello boo !</h1>
-    </div>
-  );
+    <>
+        <Clickme/>
+        <br/>
+        <Chartme/>
+        <br/>
+        <AutoComplete/>
+    </>
+  )
 }
-
-export default App;
